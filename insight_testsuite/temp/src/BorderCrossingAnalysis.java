@@ -140,10 +140,10 @@ public class BorderCrossingAnalysis {
             // Generate dataKey by combining border+date+measure
             String dataKey = border + "_" + date + "_" + measure;
 
-            // Load data into dataCacheMap
-            dataCacheMap.putIfAbsent(dataKey, data);
+
 
             /**
+             *              Load data into dataCacheMap
              * if current dataKey(month + crossing type + border) is present in cache,
              * then update it's total crossing value.
              * Otherwise update cache with new dataKey and data
