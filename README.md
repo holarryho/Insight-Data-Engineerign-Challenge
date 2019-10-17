@@ -67,6 +67,6 @@ And also implement replication for continues availability and avoid single point
 2. Each server will process input files and then generate <K,V> data set and load it in the cache. 
 3. Once cache is generated with expected output, this data will be dumped into distributed cache or messaging queue.
 4. Report generator program will consume this data from queue to generate final report (csv file).
-5. Report can be stored in perstant storage and/or then load into UI to display user.
+5. Report can be stored in persistant storage and/or load into UI to display it to user.
 
 
