@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [Problem](README.md#problem)
 1. [Solution](README.md#solution)
-1. [How to scale](README.md#How to scale)
-1. [Workflow](README.md#Basic work flow to scale this solution)
+1. [How to scale](README.md#Scalability)
+1. [Workflow](README.md#WorkFlow)
 
 ## Problem
 The Bureau of Transportation Statistics regularly makes available data on the number of vehicles, equipment, passengers and pedestrians crossing into the United States by land.
@@ -40,7 +40,7 @@ Classes:
             
         * Border, Date, Measure, Value, Average
 
-## How to scale 
+## Scalability 
 
 By design this solution can be scaled if required. To acheive this, I have implemented cache based solution
 which is loosely coupled to the data on disk and business logic (generating report),hence allows program to scale.
@@ -60,7 +60,7 @@ And also implement replication for continues availability and avoid single point
     HashMap offers constant time complexity for basic operations, get and put if the hash function is properly written.
         
 
-## Basic work flow to scale this solution
+## WorkFlow
 
 
 1. divide single program into micro-services. and run them on different servers.  
