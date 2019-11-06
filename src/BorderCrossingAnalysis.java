@@ -61,7 +61,7 @@ public class BorderCrossingAnalysis {
             DataCache tempD = (DataCache) pairs.getValue();
             Long value = tempD.getValue();
 
-            Long totalCrossings = Long.valueOf(0);
+            double totalCrossings = Double.valueOf(0);
 
             String token[] = k.split("_");
             String[] tk = token[1].split("-");
@@ -92,7 +92,7 @@ public class BorderCrossingAnalysis {
             }
 
 //          Calculate average of all previous months for current crossing Type
-            long average =(prevMonth - 1 == 0) ? Long.valueOf(0) : Long.valueOf((long) Math.round(totalCrossings / (prevMonth - 1)));
+            double average = (prevMonth - 1 == 0) ? Double.valueOf(0) : Math.round(totalCrossings / (prevMonth - 1));
             DataCache c = dataCacheMap.get(k);
 
 

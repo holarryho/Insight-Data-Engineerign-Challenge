@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a9db1b1c-905b-4b17-9812-7c9b168966db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/bced.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/bced.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/BorderCrossingAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/BorderCrossingAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/DataCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/DataCache.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/report.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BorderCrossingAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BorderCrossingAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataCache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BorderCrossingAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="165">
+              <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +83,18 @@
           <provider selected="true" editor-type-id="LargeFileEditor">
             <state relative-caret-position="-425">
               <caret line="2642" column="83" selection-start-line="2642" selection-start-column="77" selection-end-line="2642" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/report.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -168,7 +177,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="40" />
     <option name="y" value="23" />
-    <option name="width" value="820" />
+    <option name="width" value="1640" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -277,12 +286,12 @@
       <workItem from="1571173740469" duration="6415000" />
       <workItem from="1571541489040" duration="55000" />
       <workItem from="1572981568331" duration="4638000" />
-      <workItem from="1573023952371" duration="2167000" />
+      <workItem from="1573023952371" duration="3066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69873000" />
+    <option name="totallyTimeSpent" value="70772000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -302,17 +311,17 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2847309" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2847309" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49687108" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.48060074" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5281602" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5294118" side_tool="true" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49465746" weight="0.4024123" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4718398" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.4931164" weight="0.47149122" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.47058824" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49186483" weight="0.47149122" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49749687" weight="0.32894737" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -536,6 +545,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/input/Border_Crossing_Entry_Data.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-425">
+          <caret line="2642" column="83" selection-start-line="2642" selection-start-column="77" selection-end-line="2642" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/output/report.csv">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -551,22 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input/Border_Crossing_Entry_Data.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-425">
-          <caret line="2642" column="83" selection-start-line="2642" selection-start-column="77" selection-end-line="2642" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BorderCrossingAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="165">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
