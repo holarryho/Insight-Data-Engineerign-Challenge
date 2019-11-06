@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9db1b1c-905b-4b17-9812-7c9b168966db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/bced.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/bced.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/BorderCrossingAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/BorderCrossingAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/DataCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/BorderCrossingAnalysis/DataCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/report.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BorderCrossingAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BorderCrossingAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataCache.java" afterDir="false" />
     </list>
@@ -19,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BorderCrossingAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="42" column="11" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="180">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +75,8 @@
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+            <state relative-caret-position="45">
+              <caret line="3" column="76" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -79,20 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/Border_Crossing_Entry_Data.csv">
           <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/report.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+            <state relative-caret-position="-425">
+              <caret line="2642" column="83" selection-start-line="2642" selection-start-column="77" selection-end-line="2642" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -123,6 +116,10 @@
       <find>value</find>
       <find>round</find>
       <find>valueCacheMap</find>
+      <find>114487</find>
+      <find>7636</find>
+      <find>Pedestrians</find>
+      <find>346158</find>
     </findStrings>
     <replaceStrings>
       <replace>long</replace>
@@ -151,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/WriteReport.java" />
         <option value="$PROJECT_DIR$/insight_testsuite/tests/test_1/input/Border_Crossing_Entry_Data.csv" />
         <option value="$PROJECT_DIR$/input/bced.csv" />
+        <option value="$PROJECT_DIR$/output/report.csv" />
         <option value="$PROJECT_DIR$/src/DataCache.java" />
         <option value="$PROJECT_DIR$/src/BorderCrossingAnalysis.java" />
       </list>
@@ -279,12 +277,12 @@
       <workItem from="1571173740469" duration="6415000" />
       <workItem from="1571541489040" duration="55000" />
       <workItem from="1572981568331" duration="4638000" />
-      <workItem from="1573023952371" duration="555000" />
+      <workItem from="1573023952371" duration="2167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68261000" />
+    <option name="totallyTimeSpent" value="69873000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -310,13 +308,13 @@
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49687108" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.48060074" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.52628285" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5281602" side_tool="true" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49465746" weight="0.4024123" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.47371715" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49499375" weight="0.47149122" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4718398" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.4931164" weight="0.47149122" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49842867" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49749687" weight="0.32894737" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49968573" weight="0.32894737" />
       <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.4993742" weight="0.32894737" />
@@ -355,8 +353,23 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BorderCrossingAnalysis.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dataCacheMap.get(newKey).getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java">
@@ -498,33 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/report.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/Border_Crossing_Entry_Data.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input/bced.csv">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -535,25 +521,52 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+        <state relative-caret-position="45">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/output/report.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/Border_Crossing_Entry_Data.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-425">
+          <caret line="2642" column="83" selection-start-line="2642" selection-start-column="77" selection-end-line="2642" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BorderCrossingAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

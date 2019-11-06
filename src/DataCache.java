@@ -24,12 +24,12 @@ public class DataCache {
      * @param date    Timestamp indicating month and year of crossing
      * @param measure Indicates means, or type, of crossing being measured
      */
-    public DataCache(String border, LocalDate date, String measure) {
+    public DataCache(String border, LocalDate date, String measure, Long value) {
         this.border = border;
         this.date = date;
         this.measure = measure;
-        this.value = 0L;
-        this.average = 0L;
+        this.value = value;
+        this.average = Long.valueOf(0);
     }
 
     /**

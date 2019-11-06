@@ -92,7 +92,7 @@ public class BorderCrossingAnalysis {
             }
 
 //          Calculate average of all previous months for current crossing Type
-            double average = (prevMonth - 1 == 0) ? Long.valueOf(0) : (Math.ceil(totalCrossings / (prevMonth - 1)));
+            long average =(prevMonth - 1 == 0) ? Long.valueOf(0) : Long.valueOf((long) Math.round(totalCrossings / (prevMonth - 1)));
             DataCache c = dataCacheMap.get(k);
 
 
@@ -135,7 +135,7 @@ public class BorderCrossingAnalysis {
 
             DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy hh:mm:ss a");
             LocalDate date = LocalDate.parse(dateString, DATE_TIME_FORMATTER);
-            DataCache data = new DataCache(border, date, measure);
+            DataCache data = new DataCache(border, date, measure,value);
 
             // Generate dataKey by combining border+date+measure
             String dataKey = border + "_" + date + "_" + measure;
