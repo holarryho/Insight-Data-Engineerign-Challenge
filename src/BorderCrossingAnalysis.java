@@ -35,12 +35,12 @@ public class BorderCrossingAnalysis {
         Collection<DataCache> values = dataCacheMap.values();
         List<DataCache> reportValues = new ArrayList(values);
 
-        Collections.sort(reportValues, new DataCache.CacheComparator(
-                new DataCache.DateSorter(),
+//         Collections.sort(reportValues, new DataCache.CacheComparator(
+//                 new DataCache.DateSorter(),
 //                 new DataCache.ValueSorter(),
-                new DataCache.BorderSorter(),
-                new DataCache.MeasureSorter()).reversed()
-        );
+//                 new DataCache.BorderSorter(),
+//                 new DataCache.MeasureSorter()).reversed()
+//         );
 
 //      Generate Report, write all rows to output report file.
         WriteReport fileWriter = new WriteReport();
