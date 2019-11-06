@@ -37,7 +37,7 @@ public class BorderCrossingAnalysis {
 
         Collections.sort(reportValues, new DataCache.CacheComparator(
                 new DataCache.DateSorter(),
-                new DataCache.ValueSorter(),
+//                 new DataCache.ValueSorter(),
                 new DataCache.BorderSorter(),
                 new DataCache.MeasureSorter()).reversed()
         );
