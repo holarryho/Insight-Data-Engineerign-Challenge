@@ -28,6 +28,8 @@ public class DataCache {
         this.border = border;
         this.date = date;
         this.measure = measure;
+        this.value = 0L;
+        this.average=0L;
     }
 
     /**
